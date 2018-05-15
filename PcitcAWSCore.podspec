@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.libraries    = 'z', 'sqlite3'
   s.requires_arc = true
 
-  s.source_files = 'AWSCore/*.{h,m}', 'AWSCore/**/*.{h,m}'
-  s.private_header_files = 'AWSCore/XMLDictionary/**/*.h', 'AWSCore/XMLWriter/**/*.h', 'AWSCore/FMDB/AWSFMDatabase+Private.h', 'AWSCore/Fabric/*.h', 'AWSCore/Mantle/extobjc/*.h', 'AWSCore/CognitoIdentity/AWSCognitoIdentity+Fabric.h'
+  s.source_files = 'PcitcAWSCore/*.{h,m}', 'PcitcAWSCore/**/*.{h,m}'
+  s.private_header_files = 'PcitcAWSCore/XMLDictionary/**/*.h', 'PcitcAWSCore/XMLWriter/**/*.h', 'PcitcAWSCore/FMDB/AWSFMDatabase+Private.h', 'PcitcAWSCore/Fabric/*.h', 'PcitcAWSCore/Mantle/extobjc/*.h', 'PcitcAWSCore/CognitoIdentity/AWSCognitoIdentity+Fabric.h'
 end

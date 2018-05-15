@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
                      :tag => s.version}
   s.requires_arc = true
   s.dependency 'PcitcAWSCore', '2.6.18'
-  s.source_files = 'AWSS3/*.{h,m}'
+  s.source_files = 'PcitcAWSS3/*.{h,m}'
 end
